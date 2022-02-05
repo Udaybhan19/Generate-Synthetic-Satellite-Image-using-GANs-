@@ -5,15 +5,16 @@
     •	Discuss possible model predictions 
     •	Extract conclusions about the different improvements attempted.
 ## The Datasets : 
-    The data has been taken from the SAS planet satellite image dataset. We are working on the satellite images and maps of Mumbai city and its outside area. We have created a dataset by merging satellite images and their corresponding map images. The whole training set consists of a training set (863 images ) and a test set (174 images ). 
+The data has been taken from the SAS planet satellite image dataset. We are working on the satellite images and maps of Mumbai city and its outside area. We have created a dataset by merging satellite images and their corresponding map images. The whole training set consists of a training set (863 images ) and a test set (174 images ). 
 All the images and maps have a resolution of 7424*7424 pixels.
 
-  ![image](https://user-images.githubusercontent.com/90769423/152635409-a58d3d61-93af-409e-86bd-99800d6635ef.png)
+  ![image](https://user-images.githubusercontent.com/90769423/152635409-a58d3d61-93af-409e-86bd-99800d6635ef.png)![image](https://user-images.githubusercontent.com/90769423/152635524-80249c9f-2a9f-4c0b-a49a-7f585976320b.png)
+
 
 
 
 ## Related Work : 
-    Our first steps with the chosen implementation were to understand it, compare it with the original pix2pix implementation and prepare a Jupyter notebook to test the code.
+Our first steps with the chosen implementation were to understand it, compare it with the original pix2pix implementation and prepare a Jupyter notebook to test the code.
 ### Required Library :
 1.	Tensorflow 
 2.	Os 
@@ -32,11 +33,9 @@ All the images and maps have a resolution of 7424*7424 pixels.
 ### Features Steps :
 1.	Now built a input pipeline with tf.data
 #### 2. Build the generator :
-
            Define the generator loss 
-
 #### 3.	Build the discriminat: 
-                             Define the discriminator loss 
+           Define the discriminator loss 
 4.	Define the optimizers and a checkpoint-saver 
 5.	Generate images 
 6.	Training 
